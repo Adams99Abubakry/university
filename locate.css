@@ -1,0 +1,148 @@
+body{
+	margin:0;
+	padding: 0;
+	overflow: auto;
+	height: 100%;
+	width: 100%;
+	  	object-fit: cover;
+	  	background-size: cover;
+	  	background-attachment: fixed;
+
+}
+#general{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow-wrap: wrap;
+}
+.first{
+	height: 7%;
+	display: flex;
+	flex-direction: row;
+	background-color: darkblue;
+	width: 100%;
+}
+
+
+.logotext{
+
+	color: white;
+	font-size: 20px;
+	padding-top: 15px;
+	font-family: papyrus;
+	font-weight: 900;
+	  text-shadow: 1px 1px yellow;
+
+}
+.logo{
+
+	display: inline-block;
+	margin-left: 50px;
+	margin-right: 10px;
+	height: 70px;
+	margin-top: 5px;
+	width:100px;
+
+}
+.back{
+    margin-left: 1200px;
+    background-color: white;
+    width: 70px;
+}
+
+
+.container{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	background-color: rgba(0,0,0,0.1);
+	column-gap: 5px;
+}
+
+#listnav{
+	width: 20%;
+	height: 100%;
+	background-color: blue;
+	border-radius: 5px;
+}
+
+#mySearch {
+	height: 2%;
+  width: 93%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+  margin-bottom: 7px;
+}
+
+#listnav ol{
+
+	 margin: 0;
+  padding: 0;
+  width: inherit;
+  position: fixed;
+  height: 80%;
+  background-color: darkblue;
+    overflow: auto;
+    color: white;
+
+}
+
+#listnav li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+
+#listnav li a:hover{
+  background-color: purple;
+  color: white;
+  text-shadow: 2px 2px yellow;
+  font-weight: 900;
+  box-shadow: -5px -5px yellow;
+  }
+
+#items{
+	border-radius: 5px;
+	background-color: yellow;
+}
+  #items img{
+  	width: 255px;
+  }
+  #items p{
+  	 width: 250px;
+  	 margin-left: 5px;
+  	 padding-bottom: 10px;
+  	 color: darkblue;
+
+  }
+
+
+
+
+
+
+
+
+
+
+#mapside{
+	width: 80%;
+	height: 93%;
+	background-color: green;
+		border-radius: 5px;
+		min-width: 0;
+		flex-wrap: wrap;
+
+
+}
+#mapcontainer{
+  	width: 95%;
+  	height: 700px;
+  	position: fixed;
+  	object-fit: cover;
+  }

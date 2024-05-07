@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="CodeHim">
+	<title>Covenant University Shuttle Booking System </title>
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="ticketing.css">
+
+
+</head>
+
+<body>
+
+
+	<main class="cd__main">
+		<h1>Covenant University Shuttle Booking System</h1>
+		<div class="main">
+			<main class="app">
+				<div class="screen-wrap">
+					<section class="screen-home">
+						<div class="screen-home__form-wrap">
+							<div class="screen-home__form">
+								<form>
+									<div id="formdetail">
+										<div class="screen-home__location">
+											<div class="lable">
+												<figure class="icon"><img src="https://i.ibb.co/KwnYdXN/location.png">
+												</figure>
+												<span class="text">Location Details</span>
+											</div>
+											<div class="input-wrap">
+												<div class="inside-wrap">
+													<div class="rotate-btn">
+														<figure>
+															<img src="https://i.ibb.co/HPBrQkn/rotate-btn.png">
+														</figure>
+													</div>
+													<div class="from">
+														<span class="inside-lable">From</span>
+														<input class="input" type="" name="" value="Gate">
+													</div>
+													<div class="to">
+														<span class="inside-lable">To</span>
+														<input class="input" type="" name="" value="CST">
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="screen-home__date">
+											<div class="lable">
+												<figure class="icon"><img src="https://i.ibb.co/7N5zdnc/calendar.png">
+												</figure>
+												<span class="text">Date Details</span>
+											</div>
+											<div class="input-wrap">
+												<div class="inside-wrap">
+													<div class="onward">
+														<input class="input" type="" name="" value="10">
+														<div class="mon-day">
+															<span class="month">Dec</span>
+															<span class="day">Wed</span>
+														</div>
+													</div>
+
+
+												</div>
+												<div class="inside-lable-wrap">
+													<div class="inside-lable-col">
+														<span class="inside-lable">Onward</span>
+													</div>
+
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="screen-home__submit-wrap">
+										<span class="line"></span>
+										<div class="screen-home__bus-page" id="buspage">
+											<div class="screen-home__inside-wave">
+
+											</div>
+											<figure class="screen-home__bus-arrow-wrap">
+												<!--                     <span class="screen-home__btn-blink"></span> -->
+												<img src="https://i.ibb.co/nQ4khG8/arrow.png">
+											</figure>
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="screen-home__recent-search">
+								<div class="lable">
+									<figure class="icon"><img src="https://i.ibb.co/dM8cwj6/recent-search.png"></figure>
+									<span class="text">Recent places</span>
+								</div>
+								<div class="screen-home__rs-wrap">
+									<ul class="screen-home__rs-row">
+										<li class="screen-home__rs-col">
+											<div class="screen-homers-from-to">
+												<span>CEDS</span>
+												<span class="screen-home__rs-arrow"></span>
+												<span>Cafeteria 2</span>
+											</div>
+											<div class="screen-home__rs-date">05 / 12 / 2019</div>
+										</li>
+										<li class="screen-home__rs-col">
+											<div class="screen-homers-from-to">
+												<span>ALDC</span>
+												<span class="screen-home__rs-arrow"></span>
+												<span>Gate</span>
+											</div>
+											<div class="screen-home__rs-date">05 / 12 / 2019</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="screen-bus">
+						<div class="screen-bus__location-filter-wrap">
+							<div class="screen-bus__location-filter-row">
+								<div class="screen-bus__location">
+									<div class="screen-bus__location-row">
+										<span class="screen-bus__location-col">Gate</span>
+										<span class="screen-home__rs-arrow"></span>
+										<span class="screen-bus__location-col">Cafeteria 2</span>
+									</div>
+									<div class="screen-bus__date-row">
+										<span>Wed, 10/ 12/ 2019</span>
+									</div>
+								</div>
+								<div class="screen-bus__filter">
+									<figure>
+										<img src="https://i.ibb.co/ZJt9tkM/filter.png">
+									</figure>
+								</div>
+							</div>
+						</div>
+						<div class="screen-bus__travels-wrap">
+							<div class="screen-bus__travels-row">
+								<div class="screen-bus__travels-col">
+									<div class="screen-bus__name-time-seat">
+										<div class="screen-bus__name-wrap">
+											<span class="screen-bus__name">Car A</span>
+											<span class="screen-bus__type">Non A/C</span>
+										</div>
+										<div class="screen-bus__time-wrap">
+											<div class="screen-bus__time">
+												<div class="screen-bus__start">13:40</div>
+												<div class="screen-bus__time-arrow-wrap">
+													<span class="screen-bus__time-arrow"></span>
+												</div>
+												<div class="screen-bus__end">15:40</div>
+											</div>
+											<div class="screen-bus__hrs">
+												<span>2 hrs</span>
+											</div>
+										</div>
+										<div class="screen-bus__seat-wrap">
+											<div>
+												<span class="screen-bus__count">03</span>
+												Seats Available
+											</div>
+										</div>
+									</div>
+									<div class="screen-bus__rating-price">
+										<div class="screen-bus__rating-price-row">
+											<div class="screen-bus__rating">
+												<ul class="screen-bus__rating-row">
+													<li>
+														<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+													</li>
+													<li>
+														<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+													</li>
+													<li>
+														<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+													</li>
+													<li>
+														<figure><img src="https://i.ibb.co/srcpxtdTrM/star.png">
+														</figure>
+													</li>
+													<li>
+														<figure><img src="https://i.ibb.co/WPLcC1D/star-grey.png">
+														</figure>
+													</li>
+												</ul>
+											</div>
+											<div class="screen-bus__price">
+												<span><span>#</span> 100</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="screen-bus__travels-col">
+									<div class="screen-bus__name-time-seat">
+										<div class="screen-bus__name-wrap">
+											<span class="screen-bus__name">Car B</span>
+											<span class="screen-bus__type">A/C Sleeper</span>
+										</div>
+										<div class="screen-bus__time-wrap">
+											<div class="screen-bus__time">
+												<div class="screen-bus__start">12:00</div>
+												<div class="screen-bus__time-arrow-wrap">
+													<span class="screen-bus__time-arrow"></span>
+												</div>
+												<div class="screen-bus__end">15:00</div>
+											</div>
+											<div class="screen-bus__hrs">
+												<span>3 hrs</span>
+											</div>
+										</div>
+										<div class="screen-bus__seat-wrap">
+											<div>
+												<span class="screen-bus__count">05</span>
+												Seats Available
+											</div>
+										</div>
+									</div>
+									<div class="screen-bus__rating-price">
+										<div class="screen-bus__rating-price-row">
+											<div class="screen-bus__rating">
+												<ul class="screen-bus__rating-row">
+													<li>
+														<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+													</li>
+													<li>
+														<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+													</li>
+													<li>
+														<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+													</li>
+													<li>
+														<figure><img src="https://i.ibb.co/WPLcC1D/star-grey.png">
+														</figure>
+													</li>
+													<li>
+														<figure><img src="https://i.ibb.co/WPLcC1D/star-grey.png">
+														</figure>
+													</li>
+												</ul>
+											</div>
+											<div class="screen-bus__price">
+												<span><span>#</span> 200</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="screen-bus__travels-col">
+									<div class="screen-bus__name-time-seat">
+										<div class="screen-bus__name-wrap">
+											<span class="screen-bus__name">Car C</span>
+											<span class="screen-bus__type">A/C Sleeper</span>
+										</div>
+										<div class="screen-bus__time-wrap">
+											<div class="screen-bus__time">
+												<div class="screen-bus__start">22:00</div>
+												<div class="screen-bus__time-arrow-wrap">
+													<span class="screen-bus__time-arrow"></span>
+												</div>
+												<div class="screen-bus__end">1:00</div>
+											</div>
+											<div class="screen-bus__hrs">
+												<span>3 hrs</span>
+											</div>
+										</div>
+										<div class="screen-bus__seat-wrap">
+											<div>
+												<span class="screen-bus__count">01</span>
+												Seats Available
+											</div>
+										</div>
+									</div>
+									<div class="screen-bus__rating-price">
+										<div class="screen-bus__rating-price-row">
+											<div class="screen-bus__rating">
+												<ul class="screen-bus__rating-row">
+													<li>
+														<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+													</li>
+													<li>
+														<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+													</li>
+													<li>
+														<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+													</li>
+													<li>
+														<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+													</li>
+													<li>
+														<figure><img src="https://i.ibb.co/WPLcC1D/star-grey.png">
+														</figure>
+													</li>
+												</ul>
+											</div>
+											<div class="screen-bus__price">
+												<span><span>#</span> 100</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="screen-bus__travels-col">
+									<div class="screen-bus__name-time-seat">
+										<div class="screen-bus__name-wrap">
+											<span class="screen-bus__name">Car D</span>
+											<span class="screen-bus__type">Non A/C</span>
+										</div>
+										<div class="screen-bus__time-wrap">
+											<div class="screen-bus__time">
+												<div class="screen-bus__start">16:45</div>//
+												<div class="screen-bus__time-arrow-wrap">
+													<span class="screen-bus__time-arrow"></span>
+												</div>
+												<div class="screen-bus__end">18:55</div>
+											</div>
+											<div class="screen-bus__hrs">
+												<span>4 hrs</span>
+											</div>
+										</div>
+										<div class="screen-bus__seat-wrap">
+											<div>
+												<span class="screen-bus__count">04</span>
+												Seats Available
+											</div>
+										</div>
+									</div>
+									<div class="screen-bus__rating-price">
+										<div class="screen-bus__rating-price-row">
+											<div class="screen-bus__rating">
+												<ul class="screen-bus__rating-row">
+													<li>
+														<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+													</li>
+													<li>
+														<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+													</li>
+													<li>
+														<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+													</li>
+													<li>
+														<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+													</li>
+													<li>
+														<figure><img src="https://i.ibb.co/WPLcC1D/star-grey.png">
+														</figure>
+													</li>
+												</ul>
+											</div>
+											<div class="screen-bus__price">
+												<span><span>#</span> 100</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="screen-bus__travels-col">
+									<div class="screen-bus__name-time-seat">
+										<div class="screen-bus__name-wrap">
+											<span class="screen-bus__name">Car E</span>
+											<span clas s="screen-bus__type">A/C Sleeper</span>
+										</div>
+										<div class="screen-bus__time-wrap">
+											<div class="screen-bus__time">
+												<div class="screen-bus__start">10:40</div>
+												<div class="screen-bus__time-arrow-wrap">
+													<span class="screen-bus__time-arrow"></span>
+												</div>
+												<div class="screen-bus__end">15:40</div>
+											</div>
+											<div class="screen-bus__hrs">
+												<span>5 hrs</span>
+											</div>
+										</div>
+										<div class="screen-bus__seat-wrap">
+											<div>
+												<span class="screen-bus__count">03</span>
+												Seats Available
+											</div>
+										</div>
+									</div>
+									<div class="screen-bus__rating-price">
+										<div class="screen-bus__rating-price-row">
+											<div class="screen-bus__rating">
+												<ul class="screen-bus__rating-row">
+													<li>
+														<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+													</li>
+													<li>
+														<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+													</li>
+													<li>
+														<figure><img src="https://i.ibb.co/pxtdTrM/star.png"></figure>
+													</li>
+													<li>
+														<figure><img src="https://i.ibb.co/WPLcC1D/star-grey.png">
+														</figure>
+													</li>
+													<li>
+														<figure><img src="https://i.ibb.co/WPLcC1D/star-grey.png">
+														</figure>
+													</li>
+												</ul>
+											</div>
+											<div class="screen-bus__price">
+												<span><span>#</span> 200</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+				<section class="screen-bottom">
+					<div>
+						<ul>
+							<li>
+								<figure>
+									<a href="dashboard.html">
+										<img src="https://i.ibb.co/n1kQzHj/home.png">
+									</a>
+								</figure>
+							</li>
+							<li>
+								<figure>
+									<img src="https://i.ibb.co/sjXwWkz/tickets.png">
+								</figure>
+							</li>
+							<li>
+								<figure>
+									<img src="https://i.ibb.co/5nFHJvJ/user.png">
+								</figure>
+							</li>
+							<li>
+								<figure>
+									<img src="https://i.ibb.co/qpb5dSj/support.png">
+								</figure>
+							</li>
+							<li>
+								<figure>
+									<img src="https://i.ibb.co/wNkTfWb/settings.png">
+								</figure>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</main>
+		</div>
+		<!-- END EDMO HTML (Happy Coding!)-->
+	</main>
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+	<!-- Script JS -->
+	<script src="ticketing.js"></script>
+	<!--$%analytics%$-->
+</body>
+
+</html>

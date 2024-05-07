@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Use the Map</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="locate.css">
+ <link rel="icon" type="image/png" href="CU1.jpg"/>
+ </head>
+
+ <body>
+ 	
+<div id="general">
+							<div class="first">
+	<img class="logo" src="CU1.jpg"> <h1 class="logotext">CU Shuttle</h1>
+  <img class="back" src="icoback4.jpg" onclick="history.go(-1)">
+								</div>
+	
+	<div class="container">
+						<div id="listnav">
+						<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search place here..." title="Type in a category">
+
+<ol id="myMenu">
+  <li><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.750323749204!2d3.1599801750540952!3d6.677823921350595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9ec129faaee7%3A0xf4db9dff7ac2593!2sCovenant%20University%20Gate%20Bus%20Stop!5e0!3m2!1sen!2sng!4v1692770075486!5m2!1sen!2sng" target="mapframe">
+							<div id="items">
+								<img src="gate.jpg">
+								<p>The School Gate</p>
+							</div>
+  	</a></li>
+  <li><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.786990492207!2d3.1575752750540493!3d6.673294321404377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9ebf09c102f7%3A0x30ff0a9c351d9652!2sCovenant%20University%20Senate%20Building!5e0!3m2!1sen!2sng!4v1692745696464!5m2!1sen!2sng" target="mapframe" >
+							<div id="items">
+								<img src="senate3.jpg">
+								<p>The Senate Building</p>
+							</div>
+  	</a></li>
+  <li><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.8102723736697!2d3.1544888750540436!3d6.6704166214384735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9e95e5f26c45%3A0xaa6c658def053602!2sCovenant%20University%2C%20Center%20for%20Learning%20Resources!5e0!3m2!1sen!2sng!4v1692770191332!5m2!1sen!2sng" target="mapframe">
+							<div id="items">
+								<img src="lib.jpg">
+								<p>School Library</p>
+							</div>
+  	</a></li>
+  <li><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.7890232109003!2d3.1574181750540413!3d6.673043121407359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9ebfc40e65d1%3A0x71f3dca7473e74f1!2sCST!5e0!3m2!1sen!2sng!4v1692770473176!5m2!1sen!2sng" target="mapframe">
+							<div id="items">
+								<img src="cstbuilding.jpg">
+								<p>College of Science & Technology</p>
+							</div>
+  	</a></li>
+  <li><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15850.916496725922!2d3.1225060871582104!3d6.680441399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9e965f2896f7%3A0x6cec33c2708918f2!2sCovenant%20University%20Medical%20Centre!5e0!3m2!1sen!2sng!4v1692771814181!5m2!1sen!2sng" target="mapframe">
+							<div id="items">
+								<img src="hospital.jpg">
+								<p>Medical Centre</p>
+							</div>
+  	</a></li>
+  <li><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.8007179553074!2d3.1599375750540695!3d6.67159772142449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9ebecc238ff5%3A0x93a461571c14506c!2sCovenant%20University%20Guest%20House!5e0!3m2!1sen!2sng!4v1692772030854!5m2!1sen!2sng" target="mapframe">
+							<div id="items">
+								<img src="guesthouse.jpg">
+								<p>The Guest House</p>
+							</div>
+  	</a></li>
+  <li><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.8007179553074!2d3.1599375750540695!3d6.67159772142449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9eb7874bd0d3%3A0x949b135c4de81fc7!2sCamp%20House%20A!5e0!3m2!1sen!2sng!4v1692772577055!5m2!1sen!2sng" target="mapframe">
+							<div id="items">
+								<img src="images/camphouse.jpg">
+								<p>Camp House A</p>
+							</div>
+  	</a></li>
+  	
+
+
+
+</ol>
+
+
+						</div>
+
+
+<div id="mapside">
+				<iframe src="screensaver.html" id="mapcontainer" name="mapframe" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+
+</div>
+</div>
+</div>
+
+
+
+<script>
+function myFunction() {
+  var input, filter, ol, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ol = document.getElementById("myMenu");
+  li = ol.getElementsByTagName("li");
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+ </body>
+ </html>
+

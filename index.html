@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>splash</title>
+	
+    <link rel="stylesheet" href="splash.css">
+</head>
+<body>
+
+
+
+
+<div>
+	<img src="CU.jpg" id="culogo"> </span>
+</div>
+<div class="container">
+    <p> <span> Covenant University <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+  </div>
+
+<div id="loader-wrapper" class="splash" onclick="playAudio()">
+
+<div id="loader"></div>
+
+<div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+
+
+</div>
+
+
+
+
+<script type="text/javascript" src="splash.js"></script>
+<script>
+
+
+let myAudio = new Audio();
+function playAudio() {
+
+  myAudio.src = 'sounds/carpassby.mp3';
+  myAudio.autoplay = true;
+
+ }
+function pauseAudio(){
+  
+ myAudio.pause();
+ }
+
+
+
+</script>
+<script>
+playAudio();
+</script>
+
+</body>
+</html>

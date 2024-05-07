@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>CU Helpdesk Chatbot</title>
+        <link rel="stylesheet" href="helpdesk.css" />
+        <link rel="icon" type="image/png" href="images/logocu.png"/>
+    </head>
+    <body>
+    <div class="general">
+    <div class=top>
+            <img class="logo" src="images/logocu.png"> <h1 class="logotext">CU Shuttle</h1>
+  <img class="back" src="images/icoback4.jpg" onclick="history.go(-1)">
+
+    </div>
+
+    <div class="content">
+        <div class="glass">
+            <h1 id="prompt1">Ask Your Questions</h1>
+            <h2 id="prompt2">Our ChatBot will respond</h2>
+            <div class="input">
+                <input
+                    type="text"
+                    id="userBox"
+                    onkeydown="if(event.keyCode == 13){ talk()}"
+                    placeholder="Type your Question"
+                />
+            </div>
+            <p id="chatLog">Answers appear here</p>
+        </div>
+        </div>
+        </div>
+        <script src="helpdesk.js"></script>
+    </body>
+</html>
